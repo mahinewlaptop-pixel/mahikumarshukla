@@ -1,0 +1,19 @@
+.marque-container{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marque-content{
+    animation: scroll-left var(--marquee-speed) linear infinite;
+    display: inline-block;;
+}
+
+@keyframes scroll-left{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
