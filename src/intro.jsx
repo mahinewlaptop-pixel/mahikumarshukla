@@ -3,7 +3,7 @@ import MarqueText from "./MarqueText";
 
 export default function Intro() {
   return (
-    <div className="min-h-screen space-y-8 bg-red-50 flex-col flex justify-center items-center w-full">
+    <div className="min-h-screen space-y-8 bg-red-50 flex-col flex justify-center items-center w-screen">
       <div className="w-screen flex opacity-10 justify-around  ">
         <Bubble /> <Bubble />
       </div>
@@ -13,10 +13,10 @@ export default function Intro() {
         <MarqueText Children="Mahi Kumar Shukla" />
 
         <p className="text-xl w-[70%] text-purple-900">
-          A passionate and enthusiastic MERN stack developer with building dynamic and user-centric web applications. I
+          A Enthusiastic MERN stack developer with building dynamic and responsive web applications. I
           love the challenge of transforming ideas into interactive digital
           experiences using modern web technologies like <span className="font-bold">MongoDB, Express.js,
-          React.js, and Node.js</span>. I am currently open to exciting entry-level
+          React.js, and Node.js, etc</span>. I am currently open to exciting entry-level
           opportunities and collaborations where I can contribute my technical
           expertise, solve complex problems, and grow as a developer within an
           innovative team.

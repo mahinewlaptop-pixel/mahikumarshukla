@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mahinewlaptop-pixel.github.io/Mahi-Kumar-Shukla/sitemap.xml

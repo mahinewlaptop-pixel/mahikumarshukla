@@ -1,5 +1,7 @@
 import Intro from "./intro";
 import Nav from "./nav";
+import Tech from "./tech";
+import {skills, tools} from "./skill";
 import "./App.css";
 
 export default function App() {
@@ -21,6 +23,8 @@ export default function App() {
       <div id="click-effect"></div>
       <Nav />
       <Intro />
+      <div><Tech skills={skills} heading="Tech Stack"/></div>
+      <div><Tech skills={tools} heading="Tools"/></div>
     </div>
   )
 };
