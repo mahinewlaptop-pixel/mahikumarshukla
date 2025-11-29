@@ -1,6 +1,6 @@
 import Intro from "./intro";
 import Nav from "./nav";
-import Tech from "./tech";
+import Tech from "./Tech";
 import {skills, tools} from "./skill";
 import "./App.css";
 
