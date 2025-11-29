@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://mahinewlaptop-pixel.github.io/mahikumarshukla/sitemap.xml
