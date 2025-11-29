@@ -15,7 +15,7 @@ const skills = {
     nodemon : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodemon/nodemon-plain.svg",
     html : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
     css : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-    c : "../public/c.svg",
+    c : "https://i2.wp.com/www.pinclipart.com/picdir/big/539-5392404_transparent-c-language-logo-png-clipart.png",
 };
 
 const tools ={
@@ -23,8 +23,8 @@ const tools ={
     git : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
     gitHub : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
     vscode : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
-    cdnjs : "../public/cdnjs.svg",
-    fontawesome : "../public/fontawesome.svg",
+    cdnjs : "https://cdnjs.com/_/f7a2ebfb819c118086546e481876aef6.svg",
+    fontawesome : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_logomark_blue.svg/768px-Font_Awesome_logomark_blue.svg.png?20220809042108",
 }
 
 export {skills, tools};
