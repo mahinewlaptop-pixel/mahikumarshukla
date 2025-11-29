@@ -16,7 +16,7 @@ export default function Nav() {
                 <li className="pt-8 md:pt-0 lg:pt-0"><a href="#projects" className="text-blue-600 hover:text-blue-800">Projects</a></li>
                 <li className="pt-8 md:pt-0 lg:pt-0"><a href="#contact" className="text-blue-600 hover:text-blue-800">Contact</a></li>
             </ul>
-            <button className="animate-pulse z-10 md:hidden lg:hidden text-2xl px-2" onClick={handleToggle}><i class="fa-solid fa-bars"></i></button>
+            <button className="animate-pulse z-10 md:hidden lg:hidden text-2xl px-2" onClick={handleToggle}><i className="fa-solid fa-bars"></i></button>
         </nav>
     );
 };
