@@ -42,10 +42,10 @@ const gitHubLink = {
 }
 
 const imageLink ={
-    greenEnv : "../public/GreenEnv.png",
-    wanderLust : "../public/Wanderlust.png",
-    todo : "../public/todoProject.png",
-    resume : "../public/ResumeProject.png",
+    greenEnv : "/GreenEnv.png",
+    wanderLust : "/Wanderlust.png",
+    todo : "/todoProject.png",
+    resume : "/ResumeProject.png",
 }
 
 export {skills, tools, projectLink, gitHubLink, imageLink};
