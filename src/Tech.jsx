@@ -3,8 +3,8 @@ export default function Tech({skills, heading}) {
     const newSkills =[];
     for(let skill in skills){
         newSkills.push(
-           <div key={skill} className="h-72 w-52 flex flex-col items-center m-10 hover:shadow-lg rounded-lg">
-                <img className=" rounded-3xl h-56" src={skills[skill]} alt={skill}/>
+           <div key={skill} className="h-56 w-32 sm:h-72 sm:w-52 lg:h-72 lg:w-52 md:h-72 md:w-52 flex flex-col items-center m-10 hover:shadow-lg rounded-lg">
+                <img className=" rounded-3xl h-44 sm:h-56 md:h-56 lg:h-56" src={skills[skill]} alt={skill}/>
                 <p className="capitalize my-4 font-serif text-2xl">{skill}</p>
            </div>
         );

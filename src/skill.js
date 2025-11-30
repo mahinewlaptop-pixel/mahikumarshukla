@@ -27,4 +27,25 @@ const tools ={
     fontawesome : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_logomark_blue.svg/768px-Font_Awesome_logomark_blue.svg.png?20220809042108",
 }
 
-export {skills, tools};
+const projectLink = {
+    greenEnv : "https://greenenv.vercel.app/",
+    resume : "https://my-resume-builder-livid.vercel.app/",
+    todo : "https://todo-liart-psi.vercel.app/",
+    wanderLust : "https://mahikumarshukla.vercel.app/"
+}
+
+const gitHubLink = {
+    greenEnv : "https://github.com/mahinewlaptop-pixel/greenenv.git",
+    wanderLust : "https://github.com/mahinewlaptop-pixel/mahikumarshukla.git",
+    todo : "https://github.com/mahinewlaptop-pixel/todo.git",
+    resume : "https://github.com/mahinewlaptop-pixel/my-resume-builder.git",
+}
+
+const imageLink ={
+    greenEnv : "../public/GreenEnv.png",
+    wanderLust : "../public/Wanderlust.png",
+    todo : "../public/todoProject.png",
+    resume : "../public/ResumeProject.png",
+}
+
+export {skills, tools, projectLink, gitHubLink, imageLink};
