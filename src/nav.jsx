@@ -8,7 +8,7 @@ export default function Nav() {
 
     }
     return (
-        <nav className=" max-h-16 shadow-md p-4 flex justify-between items-center flex-wrap">
+        <nav className="max-h-16 shadow-md p-4 flex justify-between items-center flex-wrap">
             <h2 className="text-red-900 font-serif font-bold text-2xl">Portfolio</h2>
             <ul className="md:bg-inherit lg:bg-inherit md:absolute lg:absolute md:border-none lg:border-none md:max-h-16 w-1/2 border-2 rounded-xl fixed right-10 -top-52 bg-purple-50 md:w-1/2 lg:w-1/2 mt-56 flex space-x-4 text-xl flex-col justify-evenly items-center p-5 md:flex-row md:mt-0 md:top-0 lg:-top-0 z-10 invisible md:visible lg:visible xl:visible">
                 <li className="pt-8 md:pt-0 lg:pt-0"><a href="#home" className="text-blue-600 hover:text-blue-800">Home</a></li>

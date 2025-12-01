@@ -41,6 +41,7 @@ export default function App() {
       <div className="flex flex-col items-center justify-center">
         <div>
           <h2 className="text-3xl font-serif">My Projects</h2>
+          <pre className="bg-blue-700 h-1 mb-6">                  </pre>
         </div>
         <MyProject
           imageLink={imageLink.greenEnv}
