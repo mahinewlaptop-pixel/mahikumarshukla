@@ -49,4 +49,12 @@ const imageLink ={
     resume : "/ResumeProject.png",
 }
 
-export {skills, tools, projectLink, gitHubLink, imageLink};
+const contactDetails={
+    phone : 7631396003,
+    email : "shuklamahi785@gmail.com",
+    location : "Bihar India",
+    linkedIn : "https://www.linkedin.com/in/mahi-mern/",
+    gitHub : "https://github.com/mahinewlaptop-pixel",
+}
+
+export {skills, tools, projectLink, gitHubLink, imageLink, contactDetails};

@@ -1,7 +1,7 @@
 import Intro from "./intro";
 import Nav from "./nav";
 import Tech from "./Tech";
-import { skills, tools, projectLink, gitHubLink, imageLink} from "./skill";
+import { skills, tools, projectLink, gitHubLink, imageLink, contactDetails} from "./skill";
 import MyProject from "./Project";
 import "./App.css";
 import GetInTouch from "./getInTouch";
@@ -68,9 +68,9 @@ export default function App() {
 
       </div>
 
-      <div>
-        <GetInTouch/>
-        <Message/>
+      <div className="flex justify-around flex-wrap">
+        <GetInTouch email={contactDetails.email} mobile={contactDetails.phone} location={contactDetails.location} gitHub={contactDetails.gitHub} linkedIn={contactDetails.linkedIn}/>
+        <Message />
       </div>
     </div>
   );
