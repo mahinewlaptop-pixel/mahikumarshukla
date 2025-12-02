@@ -12,14 +12,18 @@ export default function Intro() {
           <p className="text-2xl font-bold">👋Hi, I am</p>
           <MarqueText Children="Mahi Kumar" speed="8s"/>
         </div>
-
-        <div className="w-full flex flex-col gap-4 justify-center items-center">
-        <img className=" rounded-2xl w-1/2 m-4 sm:w-96 md:w-96 lg:w-96" src="/Mahi.png" alt="Profile Image"/>
-        <p className="text-xl w-[70%] text-black">
+      <div className="flex flex-col items-center justify-center">
+        <h2 className="text-2xl font-serif font-bold">About Me </h2>
+        <pre className="bg-blue-600 h-1 my-1">          </pre>
+        <pre className="bg-red-600 h-1">               </pre>
+      </div>
+        <div className="w-full flex gap-4 justify-center items-center flex-wrap">
+        <img className=" rounded-2xl w-1/2 m-4 sm:w-56 md:w-70 lg:w-96" src="/Mahi.png" alt="Profile Image"/>
+        <p className="ms-4 text-xl w-[70%] text-black sm:w-1/2 md:w-1/2">
           A Enthusiastic MERN stack developer with building dynamic and responsive web applications. I
           love the challenge of transforming ideas into interactive digital
           experiences using modern web technologies like <span className="font-bold">MongoDB, Express.js,
-          React.js, and Node.js, etc</span>. I am currently open to exciting entry-level
+           and Node.js,</span> React.js such as html5 and css3 . I am currently open to exciting entry-level
           opportunities and collaborations where I can contribute my technical
           expertise, solve complex problems, and grow as a developer within an
           innovative team.

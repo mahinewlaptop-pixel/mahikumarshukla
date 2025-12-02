@@ -4,6 +4,8 @@ import Tech from "./Tech";
 import { skills, tools, projectLink, gitHubLink, imageLink} from "./skill";
 import MyProject from "./Project";
 import "./App.css";
+import GetInTouch from "./getInTouch";
+import Message from "./Message";
 
 export default function App() {
   document.addEventListener("click", function (e) {
@@ -64,6 +66,11 @@ export default function App() {
           gitHubLink={gitHubLink.todo}
         />
 
+      </div>
+
+      <div>
+        <GetInTouch/>
+        <Message/>
       </div>
     </div>
   );
