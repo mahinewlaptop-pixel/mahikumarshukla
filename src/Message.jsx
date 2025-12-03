@@ -41,8 +41,8 @@ export default function Message() {
           type="text"
           placeholder="Write in detail..."
         ></textarea>
-        <button className="shadow-md shadow-blue-500 hover:bg-blue-500 px-2 py-1 my-3">
-          Submit
+        <button className="shadow-md rounded-lg shadow-blue-500 hover:bg-blue-500 hover:text-white px-2 py-1 my-3">
+         <i class="fa-brands fa-facebook-messenger"></i> Message Me
         </button>
       </form>
   );
